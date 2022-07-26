@@ -1,0 +1,7 @@
+{
+  "name": "Opencity.Frontend.MeSubo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
