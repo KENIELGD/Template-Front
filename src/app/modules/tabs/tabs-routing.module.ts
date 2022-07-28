@@ -10,7 +10,7 @@ const routes: Routes = [
     children: [
       {
         path: 'qr',
-        loadChildren: () => import('../qr/qr.module').then(m => m.QrPageModule)
+        loadChildren: () => import('./qr/qr.module').then(m => m.QrPageModule)
       },
       {
         path: 'auth',

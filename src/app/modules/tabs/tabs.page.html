@@ -1,18 +1,14 @@
-<app-side-menu></app-side-menu>
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="qr">
+      <ion-icon name="qr-code"></ion-icon>
+      <ion-label>Generación QR</ion-label>
+      <ion-badge>6</ion-badge>
+    </ion-tab-button>
 
-<ion-content>
-  <ion-tabs>
-    <ion-tab-bar slot="bottom">
-      <ion-tab-button tab="qr">
-        <ion-icon name="qr-code"></ion-icon>
-        <ion-label>Generación QR</ion-label>
-        <ion-badge>6</ion-badge>
-      </ion-tab-button>
-  
-      <ion-tab-button tab="auth">
-        <ion-icon name="person-circle"></ion-icon>
-        <ion-label>Auth</ion-label>
-      </ion-tab-button>
-    </ion-tab-bar>
-  </ion-tabs>
-</ion-content>
+    <ion-tab-button tab="auth">
+      <ion-icon name="person-circle"></ion-icon>
+      <ion-label>Auth</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

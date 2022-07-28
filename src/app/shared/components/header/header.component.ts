@@ -13,6 +13,6 @@ export class HeaderComponent {
   constructor(private menuController: MenuController) { }
 
   showSideMenu(){
-    this.menuController.open();
+    this.menuController.toggle();
   }
 }
